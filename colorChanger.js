@@ -24,4 +24,4 @@ function changeColor() {
 }
 
 // Add a click event listener to the button
-colorButton.addEventListener('click', changeColor);
+colorButton.addEventListener("click", changeColor);
