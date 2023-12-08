@@ -1,3 +1,4 @@
+//1
 // Example initialization code for your game
         var gameContainer = document.getElementById('game-container');
         // Initialize your game within the 'game-container'
@@ -24,4 +25,7 @@ function changeColor() {
 }
 
 // Add a click event listener to the button
-colorButton.addEventListener("click", changeColor);
+if(colorButton){
+        colorButton.addEventListener("click", changeColor);
+}
+
