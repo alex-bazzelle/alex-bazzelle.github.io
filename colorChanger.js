@@ -25,7 +25,8 @@ function changeColor() {
 }
 
 // Add a click event listener to the button
-if(colorButton){
-        colorButton.addEventListener("click", changeColor);
-}
+document.addEventListener('DOMContentLoaded', function () {
+            // Add a click event listener to the button
+            colorButton.addEventListener('click', changeColor);
+        });
 
