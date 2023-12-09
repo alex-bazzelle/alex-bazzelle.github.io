@@ -39,11 +39,19 @@
             cursor: pointer;
         }
     </style>
-    <script src="colorChanger.js"></script>
+    
 </head>
 
 <body>
     <div id="game-container"></div>
+
+    <script src="colorChanger.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add a click event listener to the button
+            colorButton.addEventListener('click', changeColor);
+        });
+    </script>
 
 </body>
 <!--
